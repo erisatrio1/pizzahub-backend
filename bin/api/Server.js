@@ -9,7 +9,7 @@ const app = express();
 const VERSION = process.env.VERSION;
 
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: '*'
 }))
 
 console.log("SERVER VERSION: ", VERSION);
